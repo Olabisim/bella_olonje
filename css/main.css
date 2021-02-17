@@ -1,0 +1,435 @@
+
+
+.header-bg {
+    height: 600px;
+    /* background: lavender; */
+
+    /* background-image: url(/images/Rectangle\ 48.png); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header-ct {
+    color: white;
+}
+
+.header-ct > p:nth-of-type(1) {
+    padding-top: 135px;
+}
+
+.header-ct h2 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+
+
+.header-ct > p:nth-of-type(2) {
+    color: #bbb7b7;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+/* #fa4a0c; */
+.header-ct button {
+    padding: 8px 62px;
+    margin: 10px;
+    border-bottom-left-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+
+}
+
+
+.header-ct button:nth-of-type(1) {
+    
+    background-color: #fa4a0c;
+    border: none;
+
+}
+
+.header-ct button:nth-of-type(2) {
+    
+    background: none;
+    color: white;
+    border: 1px solid white;
+
+}
+
+
+
+/* 
+
+first section done 
+
+*/
+
+
+
+.section2 {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+
+.section2 > div > img{
+
+    margin-top: -270px;
+
+} 
+
+
+/* 
+
+second section done 
+
+*/
+
+
+
+.section3{
+    
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.section3 hr {
+    width: 600px;
+    margin: auto;
+    color: white;
+    opacity: 0.85;
+}
+.second_display_none{
+    display: none;
+}
+.section3 .for_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    width: 76%;
+}
+.section3 .for_flex.second {
+    padding-left: 150px;
+}
+.section3 .for_flex div > p:nth-of-type(1) {
+    color: #fa4a0c;
+    padding-bottom: 15px;
+}
+.section3 .for_flex div > p:nth-of-type(2) {
+    padding-bottom: 0px;
+    line-height: 1.5;
+}
+.section3 .for_flex div > h2 {
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+
+
+/* 
+
+third section done 
+
+*/
+
+
+
+.call-to-action{
+    background-image:  linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(/images/Rectangle\ 47.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.call-to-action h3{
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.call-to-action p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.call-to-action .links a{
+    display: inline-block;
+    width: 150px;
+    padding: 14px 0;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    text-decoration: none;
+    font: inherit;
+    margin: 10px;
+}
+
+.call-to-action .links .playstore{
+    background: #fa4a0c;
+    color: #fff;
+    border: 1px solid #fa4a0c;
+}
+
+.call-to-action .links .appstore{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+/* 
+
+fourth section done 
+
+*/
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div:nth-of-type(3) > img {
+    padding-top: 60px;
+}
+footer div:nth-of-type(3) > p {
+    padding-top: 30px;
+}
+
+
+
+
+
+/* 
+
+footer section done 
+
+*/
+
+
+
+
+
+/* 
+
+RESPONSIVENESS FOR TABLET ZONE
+
+*/
+
+@media screen and (max-width: 1240px) {
+
+    .section2 div img {
+        width: 550px;
+        padding-right: 50px;
+    }
+    
+    .section3 .for_flex div > img{
+        width: 400px;
+    }
+    
+    .section3 .for_flex.second .second_1 {
+        padding-right: 90px;
+    }
+    .section3 .for_flex.second .second_1 p{
+        width: 250%;
+    }
+    .section3 .for_flex.second .second_1 h2{
+        width: 250%;
+    }
+    
+    .section3 .for_flex div > p:nth-of-type(1) {
+        font-size: small;
+    }
+    .section3 .for_flex div > h2 {
+        font-size: large;
+    }
+}
+
+
+
+/* 
+
+RESPONSIVENESS FOR PHONE ZONE
+
+*/
+
+@media screen and (max-width: 1240px) {
+
+    .colorlib-nav-toggle.colorlib-nav-white > i::before, .colorlib-nav-toggle.colorlib-nav-white > i::after {
+        background: black;
+    }
+    .header-ct {
+        color: black;
+    }
+
+    .header-ct h2 {
+        color: black;
+    }
+
+    .header-ct > p:nth-of-type(2) {
+        color: #333333;
+    }
+
+    .header-ct button:nth-of-type(2) {
+    
+        color: black;
+        border: 1px solid black;
+
+    }
+    .video-hero .overlay {
+     background: white;
+    }
+    
+    #colorlib-offcanvas ul li > a {
+        color: rgba(0,0,0,.7);
+    }
+    #colorlib-offcanvas ul li.active > a {
+        color: rgba(0,0,0,.35);
+    }
+
+    
+    .header-ct > p:nth-of-type(1) {
+        padding-top: 100px;
+    }
+    .header-ct h2 {
+        font-size: 2.5rem;
+    }
+
+
+    
+    .header-ct button {
+        padding: 5px 70px;
+    }
+
+
+    .header-ct button:nth-of-type(1) {
+        
+        background-color: #fa4a0c;
+        border: none;
+        color: white;
+
+    }
+
+    .header-ct button:nth-of-type(2) {
+        
+        background: none;
+        color: #fa4a0c;
+        border: 1px solid #fa4a0c;
+
+    }
+
+
+
+    
+
+    .section2 > div > img{
+
+        margin-top: -170px;
+        width: 450px;
+        margin-left: -50px;
+
+    } 
+    
+    .first_display_none{
+        display: none;
+    }
+    .second_display_none{
+        display: block;
+    }
+
+    .section3 .second_display_none h2 {
+        font-size: 2.2rem;
+    }
+
+    
+    .section3 .for_flex {
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+    .section3 .for_flex div > p:nth-of-type(1) {
+        color: #fa4a0c;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+    .section3 .for_flex div > h2 {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .section3 .for_flex.second {
+        padding-left: 0px;
+        flex-direction: column;
+
+    }
+    .section3 .for_flex div > img {
+        padding-left: 55px;
+    }
+
+
+    
+    .section3 .for_flex.second .second_1 {
+        padding-right: 0px;
+    }
+    .section3 .for_flex.second .second_1 p{
+        width: 100%;
+    }
+    .section3 .for_flex.second .second_1 h2{
+        width: 100%;
+    }
+
+
+
+        
+    .call-to-action{
+        background-image:  linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+        padding: 50px 10px;
+    }
+
+    .call-to-action h3{
+        line-height: 1.5;
+        font-size: 3rem;
+    }
+
+    .call-to-action p{
+        line-height: 1.5;
+        font-size: 1.7rem;
+    }
+
+    .call-to-action .links a{
+        width: 100px;
+        padding: 12px 7px;
+    }
+
+
+    
+    footer {
+        flex-direction: column;
+    }
+    footer div:nth-of-type(1) {
+        display: none;
+    }
+    footer div:nth-of-type(2) {
+        padding-top: 20px;
+    }
+    footer div:nth-of-type(2) img:nth-of-type(2){
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    footer div:nth-of-type(3) > p {
+        padding-top: 10px;
+    }
+
+}
