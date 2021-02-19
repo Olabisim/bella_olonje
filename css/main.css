@@ -50,6 +50,19 @@
     border: none;
 
 }
+.header-ct button:nth-of-type(1):hover {
+    
+    background-color: #fa4a0c;
+    border: none;
+
+}
+.hover:hover a{
+    
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer !important;
+}
 
 .header-ct button:nth-of-type(2) {
     
@@ -230,6 +243,20 @@ RESPONSIVENESS FOR TABLET ZONE
 */
 
 @media screen and (max-width: 1240px) {
+    
+    .header-ct button {
+        padding: 5px 70px;
+        margin: 10px auto;
+        display: initial;
+    }
+    .section2 > div > img{
+    
+        margin-top: -250px;
+    
+    } 
+    .menu-1 {
+        margin-top: -50px;
+    }
 
     .section2 div img {
         width: 550px;
@@ -266,7 +293,7 @@ RESPONSIVENESS FOR PHONE ZONE
 
 */
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 768px) {
 
     .colorlib-nav-toggle.colorlib-nav-white > i::before, .colorlib-nav-toggle.colorlib-nav-white > i::after {
         background: black;
@@ -312,6 +339,8 @@ RESPONSIVENESS FOR PHONE ZONE
     
     .header-ct button {
         padding: 5px 70px;
+        display: block;
+        margin: 10px auto;
     }
 
 
@@ -356,7 +385,7 @@ RESPONSIVENESS FOR PHONE ZONE
 
     
     .section3 .for_flex {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
 
     }
@@ -371,7 +400,7 @@ RESPONSIVENESS FOR PHONE ZONE
     }
     .section3 .for_flex.second {
         padding-left: 0px;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
     }
     .section3 .for_flex div > img {
@@ -409,8 +438,13 @@ RESPONSIVENESS FOR PHONE ZONE
     }
 
     .call-to-action .links a{
-        width: 100px;
-        padding: 12px 7px;
+        width: 200px;
+        padding: 8px 62px;
+        margin: 10px auto;
+        border-bottom-left-radius: 50px 50px;
+        border-top-left-radius: 50px 50px;
+        border-bottom-right-radius: 50px 50px;
+        border-top-right-radius: 50px 50px;
     }
 
 
